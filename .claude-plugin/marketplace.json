@@ -1,11 +1,36 @@
 {
-  "name": "Civic Agent Skills",
-  "description": "Skills for integrating with Civic products",
-  "skills": [
+  "name": "civic-agent-skills",
+  "owner": {
+    "name": "civicteam",
+    "email": "github@civic.com"
+  },
+  "metadata": {
+    "description": "Skills for integrating with Civic products",
+    "version": "1.0.0"
+  },
+  "plugins": [
     {
       "name": "developer-guide-nextjs-authjs-vercelai",
+      "source": "./developer-guide-nextjs-authjs-vercelai",
       "description": "Build a Next.js app with Auth.js, Civic MCP tool calling, and Vercel AI SDK",
-      "path": "developer-guide-nextjs-authjs-vercelai"
+      "version": "1.0.0",
+      "author": {
+        "name": "civicteam"
+      },
+      "homepage": "https://github.com/civicteam/agent-skills",
+      "repository": "https://github.com/civicteam/agent-skills",
+      "license": "MIT",
+      "keywords": [
+        "claude-skill",
+        "civic",
+        "authjs",
+        "nextjs",
+        "vercel-ai-sdk",
+        "mcp",
+        "anthropic"
+      ],
+      "category": "integration",
+      "tags": ["civic", "auth", "mcp", "nextjs", "ai-agent"]
     }
   ]
 }
