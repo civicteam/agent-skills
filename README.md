@@ -1,31 +1,31 @@
 # Civic Agent Skills
 
-A collection of skills for AI coding agents (Claude Code, etc.) that provide guidance on integrating with [Civic](https://www.civic.com) products.
+Skills for AI coding agents to integrate with [Civic](https://www.civic.com) products.
 
 ## Available Skills
 
 | Skill | Description |
 |-------|-------------|
-| [developer-guide-nextjs-authjs-vercelai](./developer-guide-nextjs-authjs-vercelai/) | Build a Next.js app with Auth.js authentication, Civic MCP tool calling, and Vercel AI SDK |
+| `developer-guide-nextjs-authjs-vercelai` | Next.js + Auth.js + Civic MCP + Vercel AI SDK |
 
-## Installation
+## How to Use
 
-Install a specific skill using the [Skills CLI](https://skills.sh/):
-
-```bash
-npx skills add civicteam/agent-skills -s developer-guide-nextjs-authjs-vercelai
-```
-
-Or install all skills:
+### Using npx skills
 
 ```bash
-npx skills add civicteam/agent-skills --all
+npx skills add civicteam/agent-skills -s <skill-name>
 ```
 
-## What are Skills?
+### Manual install
 
-Skills are modular knowledge packages that give AI coding agents specialized context about tools, frameworks, and integration patterns. They contain best practices, gotchas, and reference links so the agent can build correct integrations without trial and error.
+```bash
+git clone https://github.com/civicteam/agent-skills.git /tmp/civic-skills
+cp -r /tmp/civic-skills/<skill-name> ~/.claude/skills/
+```
 
-## Contributing
+### Claude Code plugins
 
-To add a new skill, create a directory with a `SKILL.md` file following the format of existing skills.
+```
+/plugin marketplace add civicteam/agent-skills
+/plugin install <skill-name>
+```
