@@ -1,0 +1,11 @@
+{
+  "name": "Civic Agent Skills",
+  "description": "Skills for integrating with Civic products",
+  "skills": [
+    {
+      "name": "developer-guide-nextjs-authjs-vercelai",
+      "description": "Build a Next.js app with Auth.js, Civic MCP tool calling, and Vercel AI SDK",
+      "path": "developer-guide-nextjs-authjs-vercelai"
+    }
+  ]
+}
