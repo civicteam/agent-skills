@@ -1,3 +1,8 @@
+---
+name: civic-developer-guide-nextjs-authjs-vercelai
+description: Integration guide for building Next.js apps with Auth.js authentication, Civic MCP tool calling, and Vercel AI SDK. Use when setting up auth, configuring Civic token exchange, wiring up MCP tools, or debugging integration issues.
+---
+
 # Civic + Auth.js + Vercel AI SDK — Developer Integration Guide
 
 This skill contains everything needed to build a Next.js app that uses Auth.js for authentication, Civic for AI tool calling (via MCP), and the Vercel AI SDK with Anthropic as the LLM provider.
