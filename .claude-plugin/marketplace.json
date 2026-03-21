@@ -31,6 +31,29 @@
       ],
       "category": "integration",
       "tags": ["civic", "auth", "mcp", "nextjs", "ai-agent"]
+    },
+    {
+      "name": "developer-guide-nextjs-better-auth-vercelai",
+      "source": "./developer-guide-nextjs-better-auth-vercelai",
+      "description": "Build a Next.js app with Better Auth, Civic MCP tool calling, and Vercel AI SDK",
+      "version": "1.0.0",
+      "author": {
+        "name": "civicteam"
+      },
+      "homepage": "https://github.com/civicteam/agent-skills",
+      "repository": "https://github.com/civicteam/agent-skills",
+      "license": "MIT",
+      "keywords": [
+        "claude-skill",
+        "civic",
+        "better-auth",
+        "nextjs",
+        "vercel-ai-sdk",
+        "mcp",
+        "anthropic"
+      ],
+      "category": "integration",
+      "tags": ["civic", "auth", "mcp", "nextjs", "ai-agent", "better-auth"]
     }
   ]
 }
